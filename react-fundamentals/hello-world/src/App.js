@@ -13,12 +13,26 @@ import ParentComponent from './components/ParentComponent'
 import UserGreeting from './components/UserGreeting'
 import NameList from './components/NameList'
 import StyleSheet from './components/StyleSheet'
+import Inline from './components/Inline'
+import './appStyle.css'
+import styles from './appStyle.module.css'
+import Form from './components/Form'
+import LifeCycle from './components/Lifecycle'
+import FragmentDemo from './components/FragmentDemo'
+import Table from './components/Table'
 
 class App extends Component {
   render () {
     return (
       <div className="App">
-        <StyleSheet primary = {true}></StyleSheet>
+        <Table></Table>
+        {/* <FragmentDemo></FragmentDemo> */}
+        {/* <LifeCycle></LifeCycle> */}
+        {/* <Form></Form> */}
+        {/* <h1 className = 'error' >Error</h1>  */}
+        {/* <h1 className = {styles.success}>Success</h1> */}
+        {/* <Inline></Inline> */}
+        {/* <StyleSheet primary = {true}></StyleSheet> */}
         {/* <NameList></NameList> */}
         {/* <UserGreeting></UserGreeting> */}
         {/* <ParentComponent></ParentComponent> */}

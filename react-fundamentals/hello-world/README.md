@@ -75,3 +75,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### To create a constructor within a class -> rconst
 
+## Lifecycle methods :
+* It is not available in a functional component only on class component
+
+#### Mounting Lifecycle Methods
+1. Constructor (props)
+2. static getDerivedStateFromProps(props,state)
+3. render()
+4. componentDidMount()
+

@@ -1,13 +1,17 @@
-import React, { Component } from 'react'
+import React from 'react'
 
- class Inline extends Component {
-  render() {
-    return (
-      <div>
-        
-      </div>
-    )
+function Inline() {
+
+  const heading = {
+    fontSize : '72px',
+    color : 'blue'
   }
+
+  return (
+    <div>
+      <h1 style = {heading}>Inline</h1> 
+    </div>
+  )
 }
 
 export default Inline
